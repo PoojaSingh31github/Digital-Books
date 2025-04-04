@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import prev from "../assets/Back.svg"
+import searchhh from "../assets/Search.svg"
 const TopicBooks = () => {
     const location = useLocation()
     const queryParams = new URLSearchParams(location.search);
@@ -95,7 +96,10 @@ const TopicBooks = () => {
                 </div>
                 <h1 className="text-48 text-primary font-bold py-[20px] ">{topic}</h1>
             </div>
-            <div className=" w-[90%] mx-auto">
+            <div className=" w-[90%] mx-auto flex gap-[10px]">
+                <div>
+                    <img width={20} height={20} src={searchhh} alt="" />
+                </div>
                 <input className="bg-colorWhite searchBox w-full" type="text" placeholder="Search" value={search}
                     onChange={(e) => {
                         setSearch(e.target.value); deb(e.target.value)
