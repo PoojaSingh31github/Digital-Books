@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Montserrat_Semi_Bold";
+  src: url("./assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-style: semi-bold;
+}
+
+@font-face {
+  font-family: "Montserrat_Regular";
+  src: url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+body {
+  font-family: "Montserrat_Regular", sans-serif;
+  font-size: 16px;
+}
+
+.genraCard {
+  border-radius: 4px;
+  Padding: 0px 10px;
+  height: 50px;
+  box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+}
+
+.searchBox {
+  border-radius: 4px;
+  Padding: 10px;
+  Height: 40px;
+}
+
+.Rectangle {
+  width: 200px;
+  height: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+}

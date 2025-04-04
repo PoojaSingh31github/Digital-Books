@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Color */
+  --color-primary: #5E56E7;
+  --color-secondary: #F8F7FF;
+  --color-colorBlack: #333333;
+  --color-colorGray: #A0A0A0;
+  --color-colorWhite: #F0F0F6;
+
+
+  /* Text */
+  --text-48: 48px;
+  --text-30: 30px;
+  --text-20: 20px;
+  --text-16: 16px;
+  --text-12: 12px;
+
+  /* Font */
+
+  --font-weight-thin: 100;
+  --font-weight-extralight: 200;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+
+  /* radius */
+  --radius-xs: .125rem;
+  --radius-sm: .25rem;
+  --radius-md: .375rem;
+  --radius-lg: .5rem;
+  --radius-xl: .75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+  --radius-4xl: 2rem;
+  --radius-5xl: 2.5rem;
+
+
+  /* screen size */
+  --breakpoint-xxs: 324px;
+  --breakpoint-xs: 375px;
+  --breakpoint-sm: 430px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1440px;
+  --breakpoint-2xl: 2560px;
+  
+}
